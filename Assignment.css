@@ -1,0 +1,98 @@
+body
+{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url('Bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+header 
+{
+	background-color: #B3CEE5;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+}
+header nav ul
+{
+	list-style: none;
+	padding: 0;
+}
+header nav ul li
+{
+	display: inline;
+	margin: 0 15px;
+}
+header nav ul li a 
+{
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+main {
+    width: 60%; /* Adjust width as necessary */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    padding-bottom: 100px; /* Adjust this value as necessary to create space */
+}
+footer
+{
+	text-align: center;
+	padding: 10px;
+	background-color: #B3CEE5;
+	color: black;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+.section
+{
+	display: none;
+}
+#index-section
+{
+	background-color: rgba(255, 255, 255, 0.8);
+	display: block;
+}
+#health-info-section
+{
+	background-color: rgba(255, 255, 255, 0.8);
+}
+#bmi-calculator-section
+{
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Health Info Section Styling */
+.health-info-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.health-info-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    width: 48%; /* Adjust the width for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.health-info-box h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.health-info-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.health-info-box ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
